@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.InHidden{
+    visibility: hidden;
+}
+.truesQuest{
+    background-color: green;
+}
+.falseQuest{
+    background-color: red;
+}
+
+@media  (max-width:768px){
+    body{
+        text-align: center;
+        background-color: #464545;
+    }
+    .questItem{
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .textquest{
+        max-width: 280px;
+        color: aliceblue;
+    }
+
+    .inpQ{
+        width: 100px;
+        margin-top: 5px;
+        
+    }
+
+    .otvet1,
+    .otvet2,
+    .otvet3{
+        color: aliceblue;
+        margin-top: 5px;
+
+    }
+
+    .result{
+        margin-top: 20px;
+        color: antiquewhite;
+        font-size: 30px;
+    }
+
+    .restartPage{
+        margin-top: 15px;
+    }
+
+}
